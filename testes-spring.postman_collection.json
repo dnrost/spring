@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "acfdbfbe-cccf-4c04-bc0f-3b194586272f",
+		"name": "testes-spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-colab",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "post-colab",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/colaborador",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"colaborador"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
